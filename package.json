@@ -1,0 +1,24 @@
+{
+  "name": "progressive-boilerplate",
+  "version": "0.0.1",
+  "description": "My personal boilerplate for full-stack JS projects based on how I learned to develop full-stack JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganCAw/progressive-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "react"
+  ],
+  "author": "Morgan Aw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorganCAw/progressive-boilerplate/issues"
+  },
+  "homepage": "https://github.com/MorganCAw/progressive-boilerplate#readme"
+}
