@@ -2,9 +2,9 @@
   "name": "progressive-boilerplate",
   "version": "0.0.1",
   "description": "My personal boilerplate for full-stack JS projects based on how I learned to develop full-stack JS.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "local-server": "node src/server/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/MorganCAw/progressive-boilerplate/issues"
   },
-  "homepage": "https://github.com/MorganCAw/progressive-boilerplate#readme"
+  "homepage": "https://github.com/MorganCAw/progressive-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "serve-favicon": "^2.3.0"
+  }
 }

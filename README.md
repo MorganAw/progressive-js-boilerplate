@@ -9,7 +9,7 @@ There are branches for every module that I've tacked on to the boilerplate.
 ## Setting up the project
 Clone the repository
 ```
-$ git clone https://github.com/MorganCAw/progressive-boilerplate.git
+$ git clone https://github.com/MorganCAw/progressive-js-boilerplate.git
 ```
 
 Install the required node modules
