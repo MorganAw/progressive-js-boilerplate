@@ -24,9 +24,10 @@ is just the command `node src/server/server.js`. This means that instead of
 running the `$ npm run local-server` command, you could start the server in the
 exact same way by running the `$ node src/server/server.js` command.
 
-This command just tells your computer to have node run the `server.js` file.
-In this file, we create an instance of an Express application and tack on our
-configurations (static file locations, favicon info, port to listen on, etc).
+This command just tells your computer to have node run the `server.js` file
+located in our `src/server` directory. In this file, we create an instance of
+an Express application and tack on our configurations (static file locations,
+favicon info, port to listen on, etc).
 
 **The most important thing being configured at this time is the routes!** In
 this case, it would be the lines
