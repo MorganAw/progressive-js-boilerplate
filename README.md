@@ -11,12 +11,10 @@ There are branches for every module that I've tacked on to the boilerplate.
 ```
 $ git clone https://github.com/MorganCAw/progressive-js-boilerplate.git
 ```
-
 2. Checkout the branch you want
 ```
 $ npm install
 ```
-
 3. Follow the instructions in the README.md for that branch!
 
 ## Running the project
