@@ -7,9 +7,9 @@ My personal boilerplate for full-stack JS projects based on how I learned to dev
 There are branches for every module that I've tacked on to the boilerplate.
 
 ## Setting up the project
-1. Clone the repository `$ git clone https://github.com/MorganCAw/progressive-js-boilerplate.git`
-2. Checkout the branch you want `$ npm install`
-3. Follow the instructions in the README.md for that branch!
+1. Clone the repository `git clone https://github.com/MorganCAw/progressive-js-boilerplate.git`
+2. Checkout the branch you want `npm install`
+3. Follow the instructions in the `README.md` for that branch!
 
 ## Running the project
 This will update with each branch and each of the different features included in each branch.
