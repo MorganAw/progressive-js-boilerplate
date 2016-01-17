@@ -1,4 +1,4 @@
-# progress-boilerplate
+# progressive-js-boilerplate
 My personal boilerplate for full-stack JS projects based on how I learned to
 develop full-stack JS.
 
