@@ -25,9 +25,9 @@ React.
 How this is done is through all of the scripts located in the `static/script`
 directory. In this directory, there are 3 files
 
-1. react.js
-2. react-dom.js
-3. HelloWorld.js
+1. `react.js`
+2. `react-dom.js`
+3. `HelloWorld.js`
 
 `react.js` and `react-dom.js` essentially are the files that make up React.js.
 Since React v0.14, the folks over at Facebook split off the chunk that handles
@@ -56,7 +56,7 @@ In order to get access to `ReactDOM` in this file, we include the `react.js` and
 #### The First Argument
 
 ```jsx
-<h1> Hello World!</h1>
+<h1>Hello World!</h1>
 ```
 
 While this may look like we're passing an h1 element into the render method,
@@ -75,12 +75,13 @@ creating React elements much more simplified.
 document.getElementById('content')
 ```
 
-All this statement does is tell ReactDOM which DOM element to mount itself on.
+All this statement does is tell `ReactDOM` which DOM element to mount itself on.
 If you take a look at the `index.jade`, you'll see that we've created a
 `#content` element where `|Hello World` used to be.
 
 If you open your browser's dev tools though, you'll see that the page has
 rendered the following:
+
 ```HTML
 <div id="content">
   <h1 data-reactid=".0">Hello World</h1>
