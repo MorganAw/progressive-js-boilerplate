@@ -25,9 +25,9 @@ React.
 How this is done is through all of the scripts located in the `static/script`
 directory. In this directory, there are 3 files
 
-1) react.js
-2) react-dom.js
-3) HelloWorld.js
+1. react.js
+2. react-dom.js
+3. HelloWorld.js
 
 `react.js` and `react-dom.js` essentially are the files that make up React.js.
 Since React v0.14, the folks over at Facebook split off the chunk that handles
@@ -53,7 +53,7 @@ In order to get access to ReactDOM in this file, we include the `react.js` and
 `react-dom.js` files in our `index.jade`. After this happens, we just call the
 `render` method in ReactDOM and give it 2 arguments.
 
-The first is:
+#### The First Argument
 
 ```jsx
 <h1> Hello World!</h1>
@@ -69,7 +69,7 @@ React.createElement('h1', null, 'Hello, world!')
 Both are valid ways of doing things but in my opinion, jsx syntax does make
 creating React elements much more simplified.
 
-As for the second argument:
+#### The Second Argument
 
 ```javascript
 document.getElementById('content')
