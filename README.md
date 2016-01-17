@@ -49,9 +49,9 @@ ReactDOM.render(
 );
 ```
 
-In order to get access to ReactDOM in this file, we include the `react.js` and
+In order to get access to `ReactDOM` in this file, we include the `react.js` and
 `react-dom.js` files in our `index.jade`. After this happens, we just call the
-`render` method in ReactDOM and give it 2 arguments.
+`render` method in `ReactDOM` and give it 2 arguments.
 
 #### The First Argument
 
