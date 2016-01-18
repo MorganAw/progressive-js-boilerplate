@@ -19,6 +19,7 @@ until the cumulation of all the other progressive branches.
 1. [Express.js](https://github.com/MorganCAw/progressive-js-boilerplate/tree/expressjs)
 2. [React.js](https://github.com/MorganCAw/progressive-js-boilerplate/tree/reactjs)
 3. ~~Transpiling~~
-4. ~~Hotloading~~
+4. ~~Webpack~~
+5. ~~Hotloading~~
 
 Up until the Webpack branch, the project is cumulative. The rest are all technologies that I have experimented with building off of the [Hotloading](#) branch above.

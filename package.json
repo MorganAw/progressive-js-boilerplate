@@ -25,5 +25,8 @@
     "express": "^4.13.3",
     "jade": "^1.11.0",
     "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.11"
   }
 }
