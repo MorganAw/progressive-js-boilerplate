@@ -4,8 +4,10 @@ develop full-stack JS.
 
 **Note:** Make sure you have Node.js installed!
 
-### Project Structure
-There are branches for every module that I've tacked on to the boilerplate.
+## Starting with React.js
+So this branch isn't really reflective of how I started with React. I learned
+React by plunging in head first and basically jumbled everything together up
+until the cumulation of all the other progressive branches.
 
 ## Setting up the project
 1. Clone the repository
@@ -15,7 +17,7 @@ There are branches for every module that I've tacked on to the boilerplate.
 
 ## Running the project
 1. [Express.js](https://github.com/MorganCAw/progressive-js-boilerplate/tree/expressjs)
-2. ~~React.js~~
+2. [React.js](https://github.com/MorganCAw/progressive-js-boilerplate/tree/reactjs)
 3. ~~Webpack~~
 
 Up until the Webpack branch, the project is cumulative. The rest are all technologies that I have experimented with building off of the [Webpack](#) branch above.
