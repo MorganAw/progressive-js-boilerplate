@@ -6,7 +6,7 @@ var router = express.Router();
 
 // Configure Jade
 app.set('views', './src/templates');
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // Set static & favicon paths
 var root_dir = __dirname + '/../..';
