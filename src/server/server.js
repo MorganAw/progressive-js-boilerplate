@@ -1,5 +1,4 @@
 var express = require('express');
-var favicon = require('serve-favicon');
 
 const app = express();
 var router = express.Router();
@@ -13,7 +12,6 @@ var root_dir = __dirname + '/../..';
 var static_res_dir = root_dir + '/static';
 
 app.use(express.static(static_res_dir));
-app.use(favicon(static_res_dir + '/img/favicon.ico'));
 
 // Handle routing
 router.use((req, res, next) => {

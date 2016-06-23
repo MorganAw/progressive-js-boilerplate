@@ -2,25 +2,32 @@
 
 My full-stack JS boilerplates for different technologies.
 
-## Branches
+## Branch: express
 
-1. [Express.js](../../tree/express)
+### Main Technologies
+- [Express.js](http://expressjs.com/)
+- [Pug](https://github.com/pugjs/pug)
+
+### Description
+This branch is the barest-boned of boilerplates. All it does is run an Express
+instance that renders Pug templates.
+
+## Branches
+1. **[Express.js](../../tree/express)**
 2. [Transpiling](../../tree/transpiling)
 3. ~~[Vanilla React.js](../../tree/react)~~
 4. ~~[React.js + Redux](../../tree/reactredux)~~
 
 ## How to Run
-
 **NOTE:** Make sure to have [Node.js](https://nodejs.org/en/) installed!
 Also, all the build scripts are specific to Linux-based systems (sorry Windows).
 
 If you ever forget, all the build/run commands are in the `package.json`
 
 1. Install dependencies - `npm install`
-2. Open 2 terminal windows (if you want webpack to watch and rebuild client)
- * Build & run server - `npm run server`
- * Build client (watches for changes) - `npm run client`
- * Build client (don't watch for changes) - `npm run client-single`
+2. Open a terminal window
+3. Run server - `npm run server`
+ * Run production server - `npm start`
 3. Open browser to `127.0.0.1:8080` or `localhost:8080`
 
 ## Structure
@@ -30,31 +37,16 @@ Project
 |   |-- server
 |   |   |-- server.js
 |   |   |-- config
-|   |   |   |-- [Routing config]
-|   |   |   |-- [Sessioning config]
-|   |   |   `-- [Misc server config]
-|   |   |
-|   |   |-- controllers
-|   |   |   `-- [Server-side logic]
+|   |   |   `-- [Routing config]
 |   |   |
 |   |   `-- templates
 |   |       `-- [Templating files (probably .pug)]
-|   |-- client
-|   |   |-- [JS/App files]
-|   |   `-- [Styling files]
-|   |
-|   `-- shared
-|       `-- [Shared client-server resources (Ex: React components)]
 |-- static
 |   `-- [Public static resources (Ex: favicon.ico)]
-|-- test
-|   `-- [Testing files]
-|-- package.json (Project config)
-`-- webpack.config.js (Build config)
+`-- package.json (Project config)
 ```
 
 ## Motivation
-
 When I first started this project, it was meant to be a partly documentary
 process with each branch representing each stage of growth for my development
 career. This way friends (or anybody in general) trying to follow the same path
