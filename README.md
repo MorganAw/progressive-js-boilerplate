@@ -4,10 +4,10 @@ My full-stack JS boilerplates for different technologies.
 
 ### Branches
 
-1. [Express.js](./tree/express)
-2. ~~[Transpiling](./tree/transpiling)~~
-3. ~~[Vanilla React.js](./tree/react)~~
-4. ~~[React.js + Redux](./tree/reactredux)~~
+1. [Express.js](../../tree/express)
+2. ~~[Transpiling](../../tree/transpiling)~~
+3. ~~[Vanilla React.js](../../tree/react)~~
+4. ~~[React.js + Redux](../../tree/reactredux)~~
 
 ### How to Run
 
