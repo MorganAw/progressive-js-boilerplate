@@ -1,4 +1,4 @@
-# progressive-js-boilerplate [branch: express]
+# progressive-js-boilerplate [branch: transpiling]
 
 My full-stack JS boilerplates for different technologies.
 
@@ -17,9 +17,9 @@ Also, all the build scripts are specific to Linux-based systems (sorry Windows).
 If you ever forget, all the build/run commands are in the `package.json`
 1. Install dependencies - `npm install`
 2. Open 2 terminal windows (if you want webpack to watch and rebuild client)
-..- Build & run server - `npm run server`
-..- Build client (watches for changes) - `npm run client`
-..- Build client (don't watch for changes) - `npm run client-single`
+..* Build & run server - `npm run server`
+..* Build client (watches for changes) - `npm run client`
+..* Build client (don't watch for changes) - `npm run client-single`
 3. Open browser to `127.0.0.1:8080` or `localhost:8080`
 
 ### Structure
