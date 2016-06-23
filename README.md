@@ -1,4 +1,4 @@
-# progressive-js-boilerplate
+# progressive-js-boilerplate [branch: transpiling]
 
 My full-stack JS boilerplates for different technologies.
 
