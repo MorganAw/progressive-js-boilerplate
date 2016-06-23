@@ -1,4 +1,5 @@
 var express = require('express');
+var useRoutes = require('./config/routes.js')
 
 const app = express();
 var router = express.Router();
@@ -14,16 +15,8 @@ var static_res_dir = root_dir + '/static';
 app.use(express.static(static_res_dir));
 
 // Handle routing
-router.use((req, res, next) => {
-  console.log('***** Handling \'%s\' request at route \'%s\' *****', req.method, req.url);
-  next();
-});
+useRoutes(router, app);
 
-router.get('/', (req, res) => {
-  res.status(200).render('index');
-});
-
-app.use('/', router);
 // Start the server
 var server = app.listen(process.env.PORT || 8080, () => {
   var host = server.address().address;
