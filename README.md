@@ -1,15 +1,32 @@
-# progressive-js-boilerplate [branch: transpiling]
+# progressive-js-boilerplate
 
 My full-stack JS boilerplates for different technologies.
 
-### Branches
+## Branch: transpiling
+
+### Main Technologies
+- Express
+- Webpack
+- Babel
+
+### Description
+This branch is the primary basis for all the other branches in this project.
+As the name indicates, the main feature of this branch is that it will transpile
+the project files. The way it's set up now means that ES6 js files and SCSS
+styling files will be bundled into one main `app.js` file and `style.css` file.
+
+To configure this boilerplate to fit your needs, feel free to read up on the
+different [Babel presets]() and [how to make a Webpack config]().
+
+## Branches
 
 1. [Express.js](../../tree/express)
-2. ~~[Transpiling](../../tree/transpiling)~~
+2. [Transpiling](../../tree/transpiling)
 3. ~~[Vanilla React.js](../../tree/react)~~
-4. ~~[React.js + Redux](../../tree/reactredux)~~
+4. ~~[Server-Rendered React.js](../../tree/server-rendered-react)~~
+5. ~~[React.js + Redux](../../tree/reactredux)~~
 
-### How to Run
+## How to Run
 
 **NOTE:** Make sure to have [Node.js](https://nodejs.org/en/) installed!
 Also, all the build scripts are specific to Linux-based systems (sorry Windows).
@@ -23,7 +40,7 @@ If you ever forget, all the build/run commands are in the `package.json`
  * Build client (don't watch for changes) - `npm run client-single`
 3. Open browser to `127.0.0.1:8080` or `localhost:8080`
 
-### Structure
+## Structure
 ```
 Project
 |-- src (Project source)
@@ -53,7 +70,7 @@ Project
 `-- webpack.config.js (Build config)
 ```
 
-### Motivation
+## Motivation
 
 When I first started this project, it was meant to be a partly documentary process with each branch representing each stage of growth for my development career. This way friends (or anybody in general) trying to follow the same path would have a kind of guideline to follow. In the end, I never had enough time to accomplish that (and the way I learned probably also was not the best way to learn). 
 
