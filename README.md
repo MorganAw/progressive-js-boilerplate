@@ -53,25 +53,14 @@ Project
 |   |-- server
 |   |   |-- server.js
 |   |   |-- config
-|   |   |   |-- [Routing config]
-|   |   |   |-- [Sessioning config]
-|   |   |   `-- [Misc server config]
-|   |   |
-|   |   |-- controllers
-|   |   |   `-- [Server-side logic]
-|   |   |
+|   |   |   `-- [Routing config]
 |   |   `-- templates
 |   |       `-- [Templating files (probably .pug)]
-|   |-- client
-|   |   |-- [JS/App files]
-|   |   `-- [Styling files]
-|   |
-|   `-- shared
-|       `-- [Shared client-server resources (Ex: React components)]
+|   `-- client
+|       |-- [JS/App files]
+|       `-- [Styling files]
 |-- static
 |   `-- [Public static resources (Ex: favicon.ico)]
-|-- test
-|   `-- [Testing files]
 |-- package.json (Project config)
 `-- webpack.config.js (Build config)
 ```
