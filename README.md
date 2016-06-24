@@ -5,30 +5,22 @@ My full-stack JS boilerplates for different technologies.
 ## Branch: transpiling
 
 ### Main Technologies
-- Express
-- Webpack
-- Babel
+- [Express.js](http://expressjs.com/)
+- [Webpack](https://webpack.github.io/)
+- [Babel](https://babeljs.io/)
+- [React.js](https://facebook.github.io/react/)
 
 ### Description
-This branch is the primary basis for all the other branches in this project.
-As the name indicates, the main feature of this branch is that it will transpile
-the project files. The way it's set up now means that ES6 js files and SCSS
-styling files will be bundled into one main `app.js` file and `style.css` file.
-
-To configure this boilerplate to fit your needs, feel free to read up on the
-different [Babel presets](https://babeljs.io/docs/plugins/) and
-[how to make a Webpack config](http://webpack.github.io/docs/configuration.html)
-.
-
-**NOTE:** I actually think the Webpack documentation is really terrible and hard
-to understand so Google might actually be a better place to find how to write a
-Webpack config.
+This branch is essentially the same as `transpiling` with the only exception
+being that client-side JS is written in the form of React.js components. For
+more information on React.js, you can find their tutorial
+[here](https://facebook.github.io/react/docs/tutorial.html).
 
 ## Branches
 
 1. [Express.js](../../tree/express)
-2. **[Transpiling](../../tree/transpiling)**
-3. ~~[Vanilla React.js](../../tree/react)~~
+2. [Transpiling](../../tree/transpiling)
+3. **[Vanilla React.js](../../tree/react)**
 4. ~~[Server-Rendered React.js](../../tree/server-rendered-react)~~
 5. ~~[React.js + Redux](../../tree/reactredux)~~
 
