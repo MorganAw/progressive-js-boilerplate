@@ -24,6 +24,7 @@ If you ever forget, all the build/run commands are in the `package.json`
 3. Open browser to `127.0.0.1:8080` or `localhost:8080`
 
 ## Structure
+The general file structure for all branches should look something like this.
 ```
 Project
 |-- src (Project source)
