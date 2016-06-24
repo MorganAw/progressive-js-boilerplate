@@ -1,4 +1,4 @@
-function useRoutes(router, app) {
+function useRoutes(router, server) {
   router.use((req, res, next) => {
     console.log('***** Handling \'%s\' request at route \'%s\' *****',
                 req.method,
@@ -10,7 +10,7 @@ function useRoutes(router, app) {
     res.status(200).render('index');
   });
 
-  app.use('/', router);
+  server.use('/', router);
 }
 
 module.exports = useRoutes;

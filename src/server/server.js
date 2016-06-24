@@ -1,27 +1,29 @@
 var express = require('express');
 var useRoutes = require('./config/routes.js')
 
-const app = express();
+var server = express();
 var router = express.Router();
 
 // Configure Jade
-app.set('views', './src/templates');
-app.set('view engine', 'pug');
+server.set('views', './src/templates');
+server.set('view engine', 'pug');
 
 // Set static & favicon paths
-var root_dir = __dirname + '/../..';
-var static_res_dir = root_dir + '/static';
+var rootDir = __dirname + '/../..';
+var staticDir = rootDir + '/static';
 
-app.use(express.static(static_res_dir));
+server.use(express.static(staticDir));
 
 // Handle routing
-useRoutes(router, app);
+useRoutes(router, server);
 
 // Start the server
-var server = app.listen(process.env.PORT || 8080, () => {
-  var host = server.address().address;
-  var port = server.address().port;
-  var mode = app.settings.env;
-
-  console.log('App listening at http://%s:%s in %s mode', host, port, mode);
+var port = process.env.PORT || 8080;
+var instance = server.listen(port, (error) => {
+  if (error) {
+    console.error('Error starting server:', error);
+  } else {
+    var mode = server.settings.env;
+    console.log('Listening on port %s in %s mode', port, mode);
+  }
 });
