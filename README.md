@@ -5,9 +5,9 @@ My full-stack JS boilerplates for different technologies.
 ## Branch: transpiling
 
 ### Main Technologies
-- Express
-- Webpack
-- Babel
+- [Express.js](http://expressjs.com/)
+- [Webpack](https://webpack.github.io)
+- [Babel](https://babeljs.io)
 
 ### Description
 This branch is the primary basis for all the other branches in this project.
@@ -28,7 +28,7 @@ Webpack config.
 
 1. [Express.js](../../tree/express)
 2. **[Transpiling](../../tree/transpiling)**
-3. ~~[Vanilla React.js](../../tree/react)~~
+3. [Vanilla React.js](../../tree/react)
 4. ~~[Server-Rendered React.js](../../tree/server-rendered-react)~~
 5. ~~[React.js + Redux](../../tree/reactredux)~~
 
