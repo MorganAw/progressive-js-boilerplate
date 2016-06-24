@@ -1,5 +1,5 @@
-import express  from 'express';
-import favicon  from 'serve-favicon';
+import express   from 'express';
+import favicon   from 'serve-favicon';
 import useRoutes from './config/routes';
 
 const server = express();
