@@ -2,7 +2,7 @@
 
 My full-stack JS boilerplates for different technologies.
 
-## Branch: transpiling
+## Branch: react
 
 ### Main Technologies
 - [Express.js](http://expressjs.com/)
