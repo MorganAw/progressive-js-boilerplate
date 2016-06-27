@@ -6,7 +6,7 @@ const server = express();
 let router = express.Router();
 
 // Configure Jade
-server.set('views', './src/templates');
+server.set('views', './src/server/templates');
 server.set('view engine', 'pug');
 
 // Set static & favicon paths
