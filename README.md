@@ -16,7 +16,7 @@ instance that renders Pug templates.
 1. **[Express.js](../../tree/express)**
 2. [Transpiling](../../tree/transpiling)
 3. [Vanilla React.js](../../tree/react)
-4. [Server-Rendered-React](../../tree/server-rendered-react)
+4. [Server-Rendered React.js](../../tree/server-rendered-react)
 5. ~~[React.js + Redux](../../tree/reactredux)~~
 
 ## How to Run
