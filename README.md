@@ -9,7 +9,10 @@ My full-stack JS boilerplates for different technologies.
 - [Webpack](https://webpack.github.io/)
 - [Babel](https://babeljs.io/)
 - [React.js](https://facebook.github.io/react/)
+ - [Redux](https://github.com/reactjs/redux)
+ - [React Redux](https://github.com/reactjs/react-redux)
  - [React Router](https://github.com/reactjs/react-router)
+ - [react-router-redux](https://github.com/reactjs/react-router-redux)
 
 ### Description
 This branch enables the client-side app to be server-rendered first before it
@@ -30,8 +33,8 @@ For more information on React Router, take a look at their tutorial
 1. [Express.js](../../tree/express)
 2. [Transpiling](../../tree/transpiling)
 3. [Vanilla React.js](../../tree/react)
-4. **[Server-Rendered React.js](../../tree/server-rendered-react)**
-5. ~~[React.js + Redux](../../tree/reactredux)~~
+4. [Server-Rendered React.js](../../tree/server-rendered-react)
+5. **[React.js + Redux](../../tree/react-redux)**
 
 ## How to Run
 
