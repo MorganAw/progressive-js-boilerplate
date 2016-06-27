@@ -13,6 +13,7 @@
     "preclient": "npm run clean-client",
     "preclient-single": "npm run clean-client",
     "preclient-prod": "npm run clean-client",
+    "clean": "npm run clean-client && npm run clean-server",
     "clean-client": "rm -rf ./static/webpack",
     "clean-server": "rm -rf ./build",
     "build-server": "babel ./src -d ./build --copy-files"
