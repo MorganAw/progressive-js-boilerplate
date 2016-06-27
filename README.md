@@ -35,12 +35,12 @@ If you ever forget, all the build/run commands are in the `package.json`
 Project
 |-- src (Project source)
 |   |-- server
-|   |   |-- server.js
-|   |   |-- config
-|   |   |   `-- [Routing config]
-|   |   |
-|   |   `-- templates
-|   |       `-- [Templating files (probably .pug)]
+|       |-- server.js
+|       |-- config
+|       |   `-- [Routing config]
+|       |
+|       `-- templates
+|           `-- [Templating files (probably .pug)]
 |-- static
 |   `-- [Public static resources (Ex: favicon.ico)]
 `-- package.json (Project config)
