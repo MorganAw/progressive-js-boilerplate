@@ -2,13 +2,14 @@
 
 My full-stack JS boilerplates for different technologies.
 
-## Branch: transpiling
+## Branch: server-rendered-react
 
 ### Main Technologies
 - [Express.js](http://expressjs.com/)
 - [Webpack](https://webpack.github.io/)
 - [Babel](https://babeljs.io/)
 - [React.js](https://facebook.github.io/react/)
+ - [react-router](https://github.com/reactjs/react-router)
 
 ### Description
 This branch is essentially the same as `transpiling` with the only exception
@@ -20,8 +21,8 @@ more information on React.js, you can find their tutorial
 
 1. [Express.js](../../tree/express)
 2. [Transpiling](../../tree/transpiling)
-3. **[Vanilla React.js](../../tree/react)**
-4. ~~[Server-Rendered React.js](../../tree/server-rendered-react)~~
+3. [Vanilla React.js](../../tree/react)
+4. **[Server-Rendered React.js](../../tree/server-rendered-react)**
 5. ~~[React.js + Redux](../../tree/reactredux)~~
 
 ## How to Run
