@@ -15,7 +15,9 @@ My full-stack JS boilerplates for different technologies.
  - [react-router-redux](https://github.com/reactjs/react-router-redux)
 
 ### Description
-This branch enables the client-side app to be server-rendered first before it
+
+
+<!-- This branch enables the client-side app to be server-rendered first before it
 is sent and mounted onto the DOM. While React Router is not necessary to
 complete this task, I've added it so that the client can handle its own
 routing instead of making requests to the server every time.
@@ -26,7 +28,7 @@ method to generate the initial markup for our app and merge it into our
 `index.pug` template.
 
 For more information on React Router, take a look at their tutorial
-[here](https://github.com/reactjs/react-router-tutorial).
+[here](https://github.com/reactjs/react-router-tutorial). -->
 
 ## Branches
 

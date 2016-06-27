@@ -10,4 +10,6 @@ html
 
     body
         #content!=markup
+
+    script window._INITIAL_STATE_ = !{ JSON.stringify(initState) }
     script(src='build/app.js' async)

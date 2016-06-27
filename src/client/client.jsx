@@ -1,11 +1,20 @@
-import React                              from 'react';
-import { render }                         from 'react-dom';
-import { Router, Route, browserHistory }  from 'react-router';
+import React                        from 'react';
+import { render }                   from 'react-dom';
+import { Provider }                 from 'react-redux';
+import { Router, browserHistory }   from 'react-router';
+import { syncHistoryWithStore }     from 'react-router-redux';
 
-import reactRoutes                        from '../shared/reactRoutes';
-import style                              from './styling/index';
+import style                        from './styling/index';
+import reactRoutes                  from '../shared/reactRoutes';
+import configStore                  from '../shared/redux/store';
+
+const initialState = window._INITIAL_STATE_;
+const store = configStore(browserHistory, initialState);
+const history = syncHistoryWithStore(browserHistory, store);
 
 render(
-  <Router history={ browserHistory } routes={ reactRoutes } />,
+  <Provider store={ store }>
+    <Router history={ history } routes={ reactRoutes } />
+  </Provider>,
   document.getElementById('content')
 );

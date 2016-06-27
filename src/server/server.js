@@ -29,3 +29,5 @@ let instance = server.listen(port, (error) => {
     console.log('Listening on port %s in %s mode', port, mode);
   }
 });
+
+export default instance;
