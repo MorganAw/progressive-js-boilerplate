@@ -1,7 +1,11 @@
-import React      from 'react';
-import { render } from 'react-dom';
+import React                              from 'react';
+import { render }                         from 'react-dom';
+import { Router, Route, browserHistory }  from 'react-router';
 
-import App        from './components/App';
-import style      from './styling/index';
+import reactRoutes                        from '../shared/reactRoutes';
+import style                              from './styling/index';
 
-render(<App />, document.getElementById('content'));
+render(
+  <Router history={ browserHistory } routes={ reactRoutes } />,
+  document.getElementById('content')
+);

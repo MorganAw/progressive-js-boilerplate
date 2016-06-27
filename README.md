@@ -9,13 +9,10 @@ My full-stack JS boilerplates for different technologies.
 - [Webpack](https://webpack.github.io/)
 - [Babel](https://babeljs.io/)
 - [React.js](https://facebook.github.io/react/)
- - [react-router](https://github.com/reactjs/react-router)
+ - [React Router](https://github.com/reactjs/react-router)
 
 ### Description
-This branch is essentially the same as `transpiling` with the only exception
-being that client-side JS is written in the form of React.js components. For
-more information on React.js, you can find their tutorial
-[here](https://facebook.github.io/react/docs/tutorial.html).
+
 
 ## Branches
 
@@ -49,9 +46,12 @@ Project
 |   |   |   `-- [Routing config]
 |   |   `-- templates
 |   |       `-- [Templating files (probably .pug)]
-|   `-- client
-|       |-- [JS/App files]
-|       `-- [Styling files]
+|   |-- client
+|   |   |-- client.jsx
+|   |   `-- [Styling files]
+|   `-- shared
+|       |--reactRoutes.jsx
+|       `--[React components]
 |-- static
 |   `-- [Public static resources (Ex: favicon.ico)]
 |-- package.json (Project config)
